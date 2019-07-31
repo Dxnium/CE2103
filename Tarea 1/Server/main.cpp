@@ -2,8 +2,26 @@
 #include <stdio.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QGridLayout>
+#include <QtWidgets/QLabel>
+#include <QPushButton>
 
-int main(void) {
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+
+    QWidget widget;
+    widget.resize(640, 480);
+    widget.setWindowTitle("Hello, world!!!");
+
+    QGridLayout *gridLayout = new QGridLayout(&widget);
+
+    QPushButton * label = new QPushButton("Hello, world!!!");
+    //label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+    gridLayout->addWidget(label);
+
+
+
     struct sockaddr_in direccionServidor;
     direccionServidor.sin_family = AF_INET;
     direccionServidor.sin_addr.s_addr = INADDR_ANY;
@@ -31,7 +49,7 @@ int main(void) {
     printf("Recibí una conexión en %d!!\n", cliente);
     send(cliente, "Hola, desde el server!", 22, 0);
     send(cliente, ":)\n", 4, 0);
-
+    widget.show();
     //------------------------------
 
     char *buffer = (char*)malloc(5);
