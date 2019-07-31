@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danium/Documents/TEC/Datos II/Client/main.cpp
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+
