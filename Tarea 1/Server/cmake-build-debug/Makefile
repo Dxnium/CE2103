@@ -48,10 +48,10 @@ RM = /snap/clion/81/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/danium/Documents/TEC/Datos II/Tarea 1/Server"
+CMAKE_SOURCE_DIR = "/home/danium/Documents/GitHub/CE2103/Tarea 1/Server"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/danium/Documents/TEC/Datos II/Tarea 1/Server/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/danium/Documents/GitHub/CE2103/Tarea 1/Server/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/TEC/Datos II/Tarea 1/Server/cmake-build-debug/CMakeFiles" "/home/danium/Documents/TEC/Datos II/Tarea 1/Server/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/GitHub/CE2103/Tarea 1/Server/cmake-build-debug/CMakeFiles" "/home/danium/Documents/GitHub/CE2103/Tarea 1/Server/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/TEC/Datos II/Tarea 1/Server/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/GitHub/CE2103/Tarea 1/Server/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HelloWorld
+# Target rules for targets named gtk_test
 
 # Build rule for target.
-HelloWorld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HelloWorld
-.PHONY : HelloWorld
+gtk_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtk_test
+.PHONY : gtk_test
 
 # fast build rule for target.
-HelloWorld/fast:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
-.PHONY : HelloWorld/fast
+gtk_test/fast:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/build
+.PHONY : gtk_test/fast
+
+Server.o: Server.cpp.o
+
+.PHONY : Server.o
+
+# target to build an object file
+Server.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Server.cpp.o
+.PHONY : Server.cpp.o
+
+Server.i: Server.cpp.i
+
+.PHONY : Server.i
+
+# target to preprocess a source file
+Server.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Server.cpp.i
+.PHONY : Server.cpp.i
+
+Server.s: Server.cpp.s
+
+.PHONY : Server.s
+
+# target to generate assembly for a file
+Server.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Server.cpp.s
+.PHONY : Server.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +174,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+swap.o: swap.cpp.o
+
+.PHONY : swap.o
+
+# target to build an object file
+swap.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/swap.cpp.o
+.PHONY : swap.cpp.o
+
+swap.i: swap.cpp.i
+
+.PHONY : swap.i
+
+# target to preprocess a source file
+swap.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/swap.cpp.i
+.PHONY : swap.cpp.i
+
+swap.s: swap.cpp.s
+
+.PHONY : swap.s
+
+# target to generate assembly for a file
+swap.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/swap.cpp.s
+.PHONY : swap.cpp.s
 
 # Help Target
 help:
@@ -157,11 +211,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... HelloWorld"
+	@echo "... gtk_test"
 	@echo "... edit_cache"
+	@echo "... Server.o"
+	@echo "... Server.i"
+	@echo "... Server.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... swap.o"
+	@echo "... swap.i"
+	@echo "... swap.s"
 .PHONY : help
 
 

@@ -1,68 +1,32 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <arpa/inet.h>
-#include <sys/socket.h>
-#include <QtWidgets/QApplication>
-#include <QtWidgets/QGridLayout>
-#include <QtWidgets/QLabel>
-#include <QPushButton>
+#include <gtk/gtk.h>
+#include <iostream>
+#include "Server.h"
 
-int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
+void action(){
+    Server s;
 
-    QWidget widget;
-    widget.resize(640, 480);
-    widget.setWindowTitle("Hello, world!!!");
-
-    QGridLayout *gridLayout = new QGridLayout(&widget);
-
-    QPushButton * label = new QPushButton("Hello, world!!!");
-    //label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
-    gridLayout->addWidget(label);
-
-
-
-    struct sockaddr_in direccionServidor;
-    direccionServidor.sin_family = AF_INET;
-    direccionServidor.sin_addr.s_addr = INADDR_ANY;
-    direccionServidor.sin_port = htons(8080);
-
-    int servidor = socket(AF_INET, SOCK_STREAM, 0);
-
-    int activado = 1;
-    setsockopt(servidor, SOL_SOCKET, SO_REUSEADDR, &activado, sizeof(activado));
-
-    if (bind(servidor, (sockaddr*) &direccionServidor, sizeof(direccionServidor)) != 0) {
-        perror("Falló el bind");
-        return 1;
-    }
-
-    printf("Estoy escuchando\n");
-    listen(servidor, 100);
-
-    //------------------------------
-
-    struct sockaddr_in direccionCliente;
-    unsigned int len;
-    int cliente = accept(servidor, (sockaddr*) &direccionCliente, &len);
-
-    printf("Recibí una conexión en %d!!\n", cliente);
-    send(cliente, "Hola, desde el server!", 22, 0);
-    send(cliente, ":)\n", 4, 0);
-    widget.show();
-    //------------------------------
-
-    char *buffer = (char*)malloc(5);
-
-    int bytesRecibidos = recv(cliente, buffer, 4, MSG_WAITALL);
-    if (bytesRecibidos < 0) {
-        perror("Cliente desconectado");
-        return 1;
-    }
-
-    buffer[bytesRecibidos] = '\0';
-    printf("Me llegaron %d bytes con %s", bytesRecibidos, buffer);
-
-    free(buffer);
-    return 0;
 }
+
+int main(int argc, char* argv[]){
+
+    gtk_init(&argc,&argv);
+
+    GtkWidget *window, *button;
+
+
+    window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+    button = gtk_toggle_button_new_with_label ("Button");
+
+    gtk_window_set_title(reinterpret_cast<GtkWindow *>(window), "DaniUm");
+    //Connects GCallback function gtk_main_quit to "destroy" signal for "window"
+    g_signal_connect(window,"destroy",G_CALLBACK(gtk_main_quit),NULL);
+    g_signal_connect(button,"clicked",G_CALLBACK(action),NULL);
+
+    gtk_container_add(GTK_CONTAINER(window),button);
+
+    gtk_widget_show_all(window);
+    gtk_main();
+    return 0;
+
+}
+

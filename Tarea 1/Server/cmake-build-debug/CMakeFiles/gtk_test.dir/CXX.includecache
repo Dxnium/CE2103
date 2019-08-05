@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Server/Server.cpp
+Server.h
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Server/Server.h
+
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Server/Server.h
+stdlib.h
+-
+stdio.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+

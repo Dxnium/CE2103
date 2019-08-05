@@ -1,18 +1,17 @@
-    cmake_minimum_required(VERSION 3.8)
-    project(HelloWorld)
+cmake_minimum_required(VERSION 3.3)
+project(gtk_test)
 
-    set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-    # Include a library search using find_package()
-    # via REQUIRED, specify that libraries are required
-    find_package(Qt5Core REQUIRED)
-    find_package(Qt5Gui REQUIRED)
-    find_package(Qt5Widgets REQUIRED)
+set(SOURCE_FILES main.cpp swap.cpp Server.cpp Server.h)
+add_executable(gtk_test ${SOURCE_FILES})
 
-    set(SOURCE_FILES main.cpp)
-    add_executable(HelloWorld ${SOURCE_FILES})
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GTK3 REQUIRED gtk+-3.0)
 
-    # specify which libraries to connect
-    target_link_libraries(${PROJECT_NAME} Qt5::Core)
-    target_link_libraries(${PROJECT_NAME} Qt5::Gui)
-    target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
+include_directories(${GTK3_INCLUDE_DIRS})
+link_directories(${GTK3_LIBRARY_DIRS})
+
+add_definitions(${GTK3_CFLAGS_OTHER})
+
+target_link_libraries(gtk_test ${GTK3_LIBRARIES})

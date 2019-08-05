@@ -1,20 +1,14 @@
-#include <gtk/gtk.h>
-
-int
-main (int   argc,
-char *argv[])
+#include <iostream>
+using namespace std;
+int main()
 {
-  GtkWidget *window;
+int a = 7; // assigned 7 to a
+int *aPtr = &a; // initialize aPtr with the address of int variable a
 
-  gtk_init (&argc, &argv);
+cout<<"ptr= "<<&a;
 
-  window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
+cout<<"\na= "<<*aPtr<<endl;
 
-  g_signal_connect (window, "destroy", G_CALLBACK (gtk_main_quit), NULL);
 
-  gtk_widget_show (window);
 
-  gtk_main ();
-
-  return 0;
-}
+} // end main
