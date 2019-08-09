@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o"
+  "/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o"
+  "/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o"
+  "/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/DS.dir/LinkedList/Node.cpp.o"
   "/home/danium/Documents/GitHub/CE2103/DS/main.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/DS.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

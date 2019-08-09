@@ -123,6 +123,114 @@ DS/fast:
 	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/build
 .PHONY : DS/fast
 
+BinaryTree/BinaryTree.o: BinaryTree/BinaryTree.cpp.o
+
+.PHONY : BinaryTree/BinaryTree.o
+
+# target to build an object file
+BinaryTree/BinaryTree.cpp.o:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o
+.PHONY : BinaryTree/BinaryTree.cpp.o
+
+BinaryTree/BinaryTree.i: BinaryTree/BinaryTree.cpp.i
+
+.PHONY : BinaryTree/BinaryTree.i
+
+# target to preprocess a source file
+BinaryTree/BinaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.i
+.PHONY : BinaryTree/BinaryTree.cpp.i
+
+BinaryTree/BinaryTree.s: BinaryTree/BinaryTree.cpp.s
+
+.PHONY : BinaryTree/BinaryTree.s
+
+# target to generate assembly for a file
+BinaryTree/BinaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.s
+.PHONY : BinaryTree/BinaryTree.cpp.s
+
+BinaryTree/TreeNode.o: BinaryTree/TreeNode.cpp.o
+
+.PHONY : BinaryTree/TreeNode.o
+
+# target to build an object file
+BinaryTree/TreeNode.cpp.o:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o
+.PHONY : BinaryTree/TreeNode.cpp.o
+
+BinaryTree/TreeNode.i: BinaryTree/TreeNode.cpp.i
+
+.PHONY : BinaryTree/TreeNode.i
+
+# target to preprocess a source file
+BinaryTree/TreeNode.cpp.i:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.i
+.PHONY : BinaryTree/TreeNode.cpp.i
+
+BinaryTree/TreeNode.s: BinaryTree/TreeNode.cpp.s
+
+.PHONY : BinaryTree/TreeNode.s
+
+# target to generate assembly for a file
+BinaryTree/TreeNode.cpp.s:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s
+.PHONY : BinaryTree/TreeNode.cpp.s
+
+LinkedList/LinkedList.o: LinkedList/LinkedList.cpp.o
+
+.PHONY : LinkedList/LinkedList.o
+
+# target to build an object file
+LinkedList/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o
+.PHONY : LinkedList/LinkedList.cpp.o
+
+LinkedList/LinkedList.i: LinkedList/LinkedList.cpp.i
+
+.PHONY : LinkedList/LinkedList.i
+
+# target to preprocess a source file
+LinkedList/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.i
+.PHONY : LinkedList/LinkedList.cpp.i
+
+LinkedList/LinkedList.s: LinkedList/LinkedList.cpp.s
+
+.PHONY : LinkedList/LinkedList.s
+
+# target to generate assembly for a file
+LinkedList/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.s
+.PHONY : LinkedList/LinkedList.cpp.s
+
+LinkedList/Node.o: LinkedList/Node.cpp.o
+
+.PHONY : LinkedList/Node.o
+
+# target to build an object file
+LinkedList/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/Node.cpp.o
+.PHONY : LinkedList/Node.cpp.o
+
+LinkedList/Node.i: LinkedList/Node.cpp.i
+
+.PHONY : LinkedList/Node.i
+
+# target to preprocess a source file
+LinkedList/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/Node.cpp.i
+.PHONY : LinkedList/Node.cpp.i
+
+LinkedList/Node.s: LinkedList/Node.cpp.s
+
+.PHONY : LinkedList/Node.s
+
+# target to generate assembly for a file
+LinkedList/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/Node.cpp.s
+.PHONY : LinkedList/Node.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DS"
 	@echo "... edit_cache"
+	@echo "... BinaryTree/BinaryTree.o"
+	@echo "... BinaryTree/BinaryTree.i"
+	@echo "... BinaryTree/BinaryTree.s"
+	@echo "... BinaryTree/TreeNode.o"
+	@echo "... BinaryTree/TreeNode.i"
+	@echo "... BinaryTree/TreeNode.s"
+	@echo "... LinkedList/LinkedList.o"
+	@echo "... LinkedList/LinkedList.i"
+	@echo "... LinkedList/LinkedList.s"
+	@echo "... LinkedList/Node.o"
+	@echo "... LinkedList/Node.i"
+	@echo "... LinkedList/Node.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

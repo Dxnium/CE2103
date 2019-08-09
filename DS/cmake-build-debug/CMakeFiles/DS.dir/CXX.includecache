@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
+TreeNode.h
+/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
+
+/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
+
+/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
+Node.h
+/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
+
+/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
+
 /home/danium/Documents/GitHub/CE2103/DS/main.cpp
 iostream
 -
+LinkedList/LinkedList.h
+/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
+BinaryTree/BinaryTree.h
+/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
 

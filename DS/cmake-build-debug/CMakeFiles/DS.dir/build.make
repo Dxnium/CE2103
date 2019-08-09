@@ -70,17 +70,77 @@ CMakeFiles/DS.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/main.cpp -o CMakeFiles/DS.dir/main.cpp.s
 
+CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o -c /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp
+
+CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp > CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.i
+
+CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp -o CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.s
+
+CMakeFiles/DS.dir/LinkedList/Node.cpp.o: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/LinkedList/Node.cpp.o: ../LinkedList/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DS.dir/LinkedList/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS.dir/LinkedList/Node.cpp.o -c /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp
+
+CMakeFiles/DS.dir/LinkedList/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/LinkedList/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp > CMakeFiles/DS.dir/LinkedList/Node.cpp.i
+
+CMakeFiles/DS.dir/LinkedList/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/LinkedList/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp -o CMakeFiles/DS.dir/LinkedList/Node.cpp.s
+
+CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o: ../BinaryTree/BinaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o -c /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.cpp
+
+CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.cpp > CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.i
+
+CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.cpp -o CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.s
+
+CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o: ../BinaryTree/TreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o -c /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp
+
+CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp > CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.i
+
+CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp -o CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s
+
 # Object files for target DS
 DS_OBJECTS = \
-"CMakeFiles/DS.dir/main.cpp.o"
+"CMakeFiles/DS.dir/main.cpp.o" \
+"CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o" \
+"CMakeFiles/DS.dir/LinkedList/Node.cpp.o" \
+"CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o" \
+"CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o"
 
 # External object files for target DS
 DS_EXTERNAL_OBJECTS =
 
 DS: CMakeFiles/DS.dir/main.cpp.o
+DS: CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o
+DS: CMakeFiles/DS.dir/LinkedList/Node.cpp.o
+DS: CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o
+DS: CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o
 DS: CMakeFiles/DS.dir/build.make
 DS: CMakeFiles/DS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -84,6 +84,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h">
+			<Option target="DS"/>
+		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/main.cpp">
 			<Option target="DS"/>
 		</Unit>
