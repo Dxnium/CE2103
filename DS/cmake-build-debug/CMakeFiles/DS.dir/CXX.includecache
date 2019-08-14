@@ -12,11 +12,39 @@ TreeNode.h
 
 /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
 
+/home/danium/Documents/GitHub/CE2103/DS/Client.cpp
+Client.h
+/home/danium/Documents/GitHub/CE2103/DS/Client.h
+
+/home/danium/Documents/GitHub/CE2103/DS/Client.h
+
+/home/danium/Documents/GitHub/CE2103/DS/GUI.cpp
+GUI.h
+/home/danium/Documents/GitHub/CE2103/DS/GUI.h
+
+/home/danium/Documents/GitHub/CE2103/DS/GUI.h
+
 /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
 Node.h
 /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
 
 /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
+
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp
+Server.h
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
+Server.h
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
+
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
+stdlib.h
+-
+stdio.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
 
 /home/danium/Documents/GitHub/CE2103/DS/main.cpp
 iostream
@@ -25,4 +53,10 @@ LinkedList/LinkedList.h
 /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
 BinaryTree/BinaryTree.h
 /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
+gtk/gtk.h
+-
+iostream
+-
+Server.h
+/home/danium/Documents/GitHub/CE2103/DS/Server.h
 

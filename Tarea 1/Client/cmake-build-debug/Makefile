@@ -48,10 +48,10 @@ RM = /snap/clion/81/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/danium/Documents/TEC/Datos II/Client"
+CMAKE_SOURCE_DIR = "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/danium/Documents/TEC/Datos II/Client/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,11 +78,33 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	/snap/clion/81/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/danium/Documents/GitHub/CE2103/Tarea\ 1/Client/cmake-build-debug/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	/snap/clion/81/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/TEC/Datos II/Client/cmake-build-debug/CMakeFiles" "/home/danium/Documents/TEC/Datos II/Client/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles" "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/TEC/Datos II/Client/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -157,8 +179,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Client"
 	@echo "... edit_cache"
+	@echo "... package_source"
+	@echo "... Client"
+	@echo "... package"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,6 +4,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/DS.dir/LinkedList/Node.cpp.o"
   "CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o"
   "CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o"
+  "CMakeFiles/DS.dir/Sockets/Server.cpp.o"
+  "CMakeFiles/DS.dir/GUI.cpp.o"
+  "CMakeFiles/DS.dir/Client.cpp.o"
   "DS.pdb"
   "DS"
 )

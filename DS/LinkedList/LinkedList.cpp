@@ -25,6 +25,7 @@ void LinkedList::print() {
         cout<<tmp->getData()<<endl;
         tmp = tmp->getNext();
     }
+    delete tmp;
 
 }
 
@@ -45,6 +46,7 @@ void LinkedList::set(int pos, int data) {
         tmp = tmp->getNext();
         index++;
     }
+    delete tmp;
 }
 
 void LinkedList::get(int pos) {
@@ -57,4 +59,5 @@ void LinkedList::get(int pos) {
         tmp = tmp->getNext();
         index++;
     }
+    delete tmp;
 }

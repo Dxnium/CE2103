@@ -96,6 +96,18 @@
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h">
 			<Option target="DS"/>
 		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Client.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Client.h">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/GUI.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/GUI.h">
+			<Option target="DS"/>
+		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp">
 			<Option target="DS"/>
 		</Unit>
@@ -106,6 +118,12 @@
 			<Option target="DS"/>
 		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h">
 			<Option target="DS"/>
 		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/main.cpp">

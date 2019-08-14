@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/danium/Documents/TEC/Datos II/Client/main.cpp
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/main.cpp
 stdlib.h
 -
 stdio.h
@@ -16,5 +16,9 @@ string.h
 arpa/inet.h
 -
 sys/socket.h
+-
+json-c/json.h
+-
+json.hpp
 -
 

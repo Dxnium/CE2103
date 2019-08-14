@@ -20,23 +20,23 @@ Server::Server() {
 
     struct sockaddr_in direccionCliente;
     unsigned int len;
-    int cliente = accept(servidor, (sockaddr*) &direccionCliente, &len);
 
-    printf("Recibí una conexión en %d!!\n", cliente);
-    send(cliente, "Hola, desde el server!", 22, 0);
-    send(cliente, ":)\n", 4, 0);
-    //------------------------------
+    while (1) {
+        int cliente = accept(servidor, (sockaddr*) &direccionCliente, &len);
 
-    char *buffer = (char*)malloc(5);
+        printf("Recibí una conexión en %d!!\n", cliente);
+        send(cliente, "Hola, desde el server!", 22, 0);
+        send(cliente, ":)\n", 4, 0);
+        //------------------------------
 
-    int bytesRecibidos = recv(cliente, buffer, 4, MSG_WAITALL);
-    if (bytesRecibidos < 0) {
-        perror("Cliente desconectado");
+        char *buffer = (char*)malloc(1024);
+        int bytesRecibidos = recv(cliente, buffer, 1000, 0);
+        if (bytesRecibidos <= 0) {
+            perror("Se desconecto.");
+        }
 
+        buffer[bytesRecibidos] = '\0';
+        printf("Me llegaron %d bytes con %s\n", bytesRecibidos, buffer);
+        free(buffer);
     }
-
-    buffer[bytesRecibidos] = '\0';
-    printf("Me llegaron %d bytes con %s", bytesRecibidos, buffer);
-
-    free(buffer);
 }

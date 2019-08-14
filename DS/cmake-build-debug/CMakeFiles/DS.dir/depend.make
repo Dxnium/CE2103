@@ -8,12 +8,21 @@ CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o: ../BinaryTree/TreeNode.h
 CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o: ../BinaryTree/TreeNode.cpp
 CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o: ../BinaryTree/TreeNode.h
 
+CMakeFiles/DS.dir/Client.cpp.o: ../Client.cpp
+CMakeFiles/DS.dir/Client.cpp.o: ../Client.h
+
+CMakeFiles/DS.dir/GUI.cpp.o: ../GUI.cpp
+CMakeFiles/DS.dir/GUI.cpp.o: ../GUI.h
+
 CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/LinkedList.cpp
 CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/LinkedList.h
 CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/Node.h
 
 CMakeFiles/DS.dir/LinkedList/Node.cpp.o: ../LinkedList/Node.cpp
 CMakeFiles/DS.dir/LinkedList/Node.cpp.o: ../LinkedList/Node.h
+
+CMakeFiles/DS.dir/Sockets/Server.cpp.o: ../Sockets/Server.cpp
+CMakeFiles/DS.dir/Sockets/Server.cpp.o: ../Sockets/Server.h
 
 CMakeFiles/DS.dir/main.cpp.o: ../BinaryTree/BinaryTree.h
 CMakeFiles/DS.dir/main.cpp.o: ../BinaryTree/TreeNode.h

@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/danium/Documents/GitHub/CE2103/DS
 CMAKE_BINARY_DIR = /home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/DS.dir
+# Target rules for target CMakeFiles/gtk_test.dir
 
 # All Build rule for target.
-CMakeFiles/DS.dir/all:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/depend
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target DS"
-.PHONY : CMakeFiles/DS.dir/all
+CMakeFiles/gtk_test.dir/all:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/depend
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target gtk_test"
+.PHONY : CMakeFiles/gtk_test.dir/all
 
 # Include target in all.
-all: CMakeFiles/DS.dir/all
+all: CMakeFiles/gtk_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DS.dir/all
+CMakeFiles/gtk_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gtk_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/DS.dir/rule
+.PHONY : CMakeFiles/gtk_test.dir/rule
 
 # Convenience name for target.
-DS: CMakeFiles/DS.dir/rule
+gtk_test: CMakeFiles/gtk_test.dir/rule
 
-.PHONY : DS
-
-# clean rule for target.
-CMakeFiles/DS.dir/clean:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/clean
-.PHONY : CMakeFiles/DS.dir/clean
+.PHONY : gtk_test
 
 # clean rule for target.
-clean: CMakeFiles/DS.dir/clean
+CMakeFiles/gtk_test.dir/clean:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/clean
+.PHONY : CMakeFiles/gtk_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/gtk_test.dir/clean
 
 .PHONY : clean
 

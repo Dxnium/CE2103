@@ -1,3 +1,5 @@
-/home/danium/Documents/TEC/Datos II/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/danium/Documents/TEC/Datos II/Client/cmake-build-debug/CMakeFiles/Client.dir
-/home/danium/Documents/TEC/Datos II/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/package_source.dir
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/Client.dir
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/package.dir

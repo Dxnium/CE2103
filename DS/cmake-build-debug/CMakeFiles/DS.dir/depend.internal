@@ -8,6 +8,12 @@ CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o
 CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp
  /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
+CMakeFiles/DS.dir/Client.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/Client.cpp
+ /home/danium/Documents/GitHub/CE2103/DS/Client.h
+CMakeFiles/DS.dir/GUI.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/GUI.cpp
+ /home/danium/Documents/GitHub/CE2103/DS/GUI.h
 CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
@@ -15,6 +21,9 @@ CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o
 CMakeFiles/DS.dir/LinkedList/Node.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
+CMakeFiles/DS.dir/Sockets/Server.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
 CMakeFiles/DS.dir/main.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
  /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h

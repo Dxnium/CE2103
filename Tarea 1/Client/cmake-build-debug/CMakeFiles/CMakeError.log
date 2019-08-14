@@ -1,0 +1,130 @@
+Determining if the include file xlocale.h exists failed with the following output:
+Change Dir: /home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30b4b/fast 
+make[1]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_30b4b.dir/build.make CMakeFiles/cmTC_30b4b.dir/build
+make[2]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30b4b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_30b4b.dir/CheckIncludeFile.c.o   -c "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: xlocale.h: No such file or directory
+ #include <xlocale.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_30b4b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_30b4b.dir/CheckIncludeFile.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_30b4b.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_30b4b/fast' failed
+make[1]: *** [cmTC_30b4b/fast] Error 2
+make[1]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the _isnan exist failed with the following output:
+Change Dir: /home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9f97/fast 
+make[1]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d9f97.dir/build.make CMakeFiles/cmTC_d9f97.dir/build
+make[2]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9f97.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d9f97.dir/CheckSymbolExists.c.o   -c "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_isnan’ undeclared (first use in this function)
+   return ((int*)(&_isnan))[argc];
+                   ^~~~~~
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_d9f97.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d9f97.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_d9f97.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d9f97/fast' failed
+make[1]: *** [cmTC_d9f97/fast] Error 2
+make[1]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _finite exist failed with the following output:
+Change Dir: /home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_170f6/fast 
+make[1]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_170f6.dir/build.make CMakeFiles/cmTC_170f6.dir/build
+make[2]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_170f6.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_170f6.dir/CheckSymbolExists.c.o   -c "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_finite’ undeclared (first use in this function)
+   return ((int*)(&_finite))[argc];
+                   ^~~~~~~
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_170f6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_170f6.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_170f6.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_170f6/fast' failed
+make[1]: *** [cmTC_170f6/fast] Error 2
+make[1]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _doprnt exist failed with the following output:
+Change Dir: /home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98931/fast 
+make[1]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_98931.dir/build.make CMakeFiles/cmTC_98931.dir/build
+make[2]: Entering directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98931.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_98931.dir/CheckSymbolExists.c.o   -c "/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_doprnt’ undeclared (first use in this function); did you mean ‘fdopen’?
+   return ((int*)(&_doprnt))[argc];
+                   ^~~~~~~
+                   fdopen
+/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_98931.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_98931.dir/CheckSymbolExists.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_98931.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_98931/fast' failed
+make[1]: *** [cmTC_98931/fast] Error 2
+make[1]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/danium/Documents/GitHub/CE2103/Tarea 1/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _doprnt
+  return ((int*)(&_doprnt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

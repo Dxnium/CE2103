@@ -122,13 +122,55 @@ CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp -o CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s
 
+CMakeFiles/DS.dir/Sockets/Server.cpp.o: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/Sockets/Server.cpp.o: ../Sockets/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DS.dir/Sockets/Server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS.dir/Sockets/Server.cpp.o -c /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp
+
+CMakeFiles/DS.dir/Sockets/Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/Sockets/Server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp > CMakeFiles/DS.dir/Sockets/Server.cpp.i
+
+CMakeFiles/DS.dir/Sockets/Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/Sockets/Server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp -o CMakeFiles/DS.dir/Sockets/Server.cpp.s
+
+CMakeFiles/DS.dir/GUI.cpp.o: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/GUI.cpp.o: ../GUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DS.dir/GUI.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS.dir/GUI.cpp.o -c /home/danium/Documents/GitHub/CE2103/DS/GUI.cpp
+
+CMakeFiles/DS.dir/GUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/GUI.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danium/Documents/GitHub/CE2103/DS/GUI.cpp > CMakeFiles/DS.dir/GUI.cpp.i
+
+CMakeFiles/DS.dir/GUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/GUI.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/GUI.cpp -o CMakeFiles/DS.dir/GUI.cpp.s
+
+CMakeFiles/DS.dir/Client.cpp.o: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/Client.cpp.o: ../Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DS.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS.dir/Client.cpp.o -c /home/danium/Documents/GitHub/CE2103/DS/Client.cpp
+
+CMakeFiles/DS.dir/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/Client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danium/Documents/GitHub/CE2103/DS/Client.cpp > CMakeFiles/DS.dir/Client.cpp.i
+
+CMakeFiles/DS.dir/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/Client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danium/Documents/GitHub/CE2103/DS/Client.cpp -o CMakeFiles/DS.dir/Client.cpp.s
+
 # Object files for target DS
 DS_OBJECTS = \
 "CMakeFiles/DS.dir/main.cpp.o" \
 "CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o" \
 "CMakeFiles/DS.dir/LinkedList/Node.cpp.o" \
 "CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o" \
-"CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o"
+"CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o" \
+"CMakeFiles/DS.dir/Sockets/Server.cpp.o" \
+"CMakeFiles/DS.dir/GUI.cpp.o" \
+"CMakeFiles/DS.dir/Client.cpp.o"
 
 # External object files for target DS
 DS_EXTERNAL_OBJECTS =
@@ -138,9 +180,12 @@ DS: CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o
 DS: CMakeFiles/DS.dir/LinkedList/Node.cpp.o
 DS: CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o
 DS: CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o
+DS: CMakeFiles/DS.dir/Sockets/Server.cpp.o
+DS: CMakeFiles/DS.dir/GUI.cpp.o
+DS: CMakeFiles/DS.dir/Client.cpp.o
 DS: CMakeFiles/DS.dir/build.make
 DS: CMakeFiles/DS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

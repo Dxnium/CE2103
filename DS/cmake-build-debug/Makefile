@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DS
+# Target rules for targets named gtk_test
 
 # Build rule for target.
-DS: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DS
-.PHONY : DS
+gtk_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtk_test
+.PHONY : gtk_test
 
 # fast build rule for target.
-DS/fast:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/build
-.PHONY : DS/fast
+gtk_test/fast:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/build
+.PHONY : gtk_test/fast
 
 BinaryTree/BinaryTree.o: BinaryTree/BinaryTree.cpp.o
 
@@ -129,7 +129,7 @@ BinaryTree/BinaryTree.o: BinaryTree/BinaryTree.cpp.o
 
 # target to build an object file
 BinaryTree/BinaryTree.cpp.o:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.o
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/BinaryTree/BinaryTree.cpp.o
 .PHONY : BinaryTree/BinaryTree.cpp.o
 
 BinaryTree/BinaryTree.i: BinaryTree/BinaryTree.cpp.i
@@ -138,7 +138,7 @@ BinaryTree/BinaryTree.i: BinaryTree/BinaryTree.cpp.i
 
 # target to preprocess a source file
 BinaryTree/BinaryTree.cpp.i:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.i
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/BinaryTree/BinaryTree.cpp.i
 .PHONY : BinaryTree/BinaryTree.cpp.i
 
 BinaryTree/BinaryTree.s: BinaryTree/BinaryTree.cpp.s
@@ -147,7 +147,7 @@ BinaryTree/BinaryTree.s: BinaryTree/BinaryTree.cpp.s
 
 # target to generate assembly for a file
 BinaryTree/BinaryTree.cpp.s:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/BinaryTree.cpp.s
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/BinaryTree/BinaryTree.cpp.s
 .PHONY : BinaryTree/BinaryTree.cpp.s
 
 BinaryTree/TreeNode.o: BinaryTree/TreeNode.cpp.o
@@ -156,7 +156,7 @@ BinaryTree/TreeNode.o: BinaryTree/TreeNode.cpp.o
 
 # target to build an object file
 BinaryTree/TreeNode.cpp.o:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.o
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/BinaryTree/TreeNode.cpp.o
 .PHONY : BinaryTree/TreeNode.cpp.o
 
 BinaryTree/TreeNode.i: BinaryTree/TreeNode.cpp.i
@@ -165,7 +165,7 @@ BinaryTree/TreeNode.i: BinaryTree/TreeNode.cpp.i
 
 # target to preprocess a source file
 BinaryTree/TreeNode.cpp.i:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.i
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/BinaryTree/TreeNode.cpp.i
 .PHONY : BinaryTree/TreeNode.cpp.i
 
 BinaryTree/TreeNode.s: BinaryTree/TreeNode.cpp.s
@@ -174,8 +174,89 @@ BinaryTree/TreeNode.s: BinaryTree/TreeNode.cpp.s
 
 # target to generate assembly for a file
 BinaryTree/TreeNode.cpp.s:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/BinaryTree/TreeNode.cpp.s
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/BinaryTree/TreeNode.cpp.s
 .PHONY : BinaryTree/TreeNode.cpp.s
+
+GUI/ClientGUI.o: GUI/ClientGUI.cpp.o
+
+.PHONY : GUI/ClientGUI.o
+
+# target to build an object file
+GUI/ClientGUI.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o
+.PHONY : GUI/ClientGUI.cpp.o
+
+GUI/ClientGUI.i: GUI/ClientGUI.cpp.i
+
+.PHONY : GUI/ClientGUI.i
+
+# target to preprocess a source file
+GUI/ClientGUI.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.i
+.PHONY : GUI/ClientGUI.cpp.i
+
+GUI/ClientGUI.s: GUI/ClientGUI.cpp.s
+
+.PHONY : GUI/ClientGUI.s
+
+# target to generate assembly for a file
+GUI/ClientGUI.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.s
+.PHONY : GUI/ClientGUI.cpp.s
+
+GUI/arbolGUI.o: GUI/arbolGUI.cpp.o
+
+.PHONY : GUI/arbolGUI.o
+
+# target to build an object file
+GUI/arbolGUI.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o
+.PHONY : GUI/arbolGUI.cpp.o
+
+GUI/arbolGUI.i: GUI/arbolGUI.cpp.i
+
+.PHONY : GUI/arbolGUI.i
+
+# target to preprocess a source file
+GUI/arbolGUI.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.i
+.PHONY : GUI/arbolGUI.cpp.i
+
+GUI/arbolGUI.s: GUI/arbolGUI.cpp.s
+
+.PHONY : GUI/arbolGUI.s
+
+# target to generate assembly for a file
+GUI/arbolGUI.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.s
+.PHONY : GUI/arbolGUI.cpp.s
+
+GUI/listaGUI.o: GUI/listaGUI.cpp.o
+
+.PHONY : GUI/listaGUI.o
+
+# target to build an object file
+GUI/listaGUI.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o
+.PHONY : GUI/listaGUI.cpp.o
+
+GUI/listaGUI.i: GUI/listaGUI.cpp.i
+
+.PHONY : GUI/listaGUI.i
+
+# target to preprocess a source file
+GUI/listaGUI.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.i
+.PHONY : GUI/listaGUI.cpp.i
+
+GUI/listaGUI.s: GUI/listaGUI.cpp.s
+
+.PHONY : GUI/listaGUI.s
+
+# target to generate assembly for a file
+GUI/listaGUI.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.s
+.PHONY : GUI/listaGUI.cpp.s
 
 LinkedList/LinkedList.o: LinkedList/LinkedList.cpp.o
 
@@ -183,7 +264,7 @@ LinkedList/LinkedList.o: LinkedList/LinkedList.cpp.o
 
 # target to build an object file
 LinkedList/LinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.o
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/LinkedList/LinkedList.cpp.o
 .PHONY : LinkedList/LinkedList.cpp.o
 
 LinkedList/LinkedList.i: LinkedList/LinkedList.cpp.i
@@ -192,7 +273,7 @@ LinkedList/LinkedList.i: LinkedList/LinkedList.cpp.i
 
 # target to preprocess a source file
 LinkedList/LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.i
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/LinkedList/LinkedList.cpp.i
 .PHONY : LinkedList/LinkedList.cpp.i
 
 LinkedList/LinkedList.s: LinkedList/LinkedList.cpp.s
@@ -201,7 +282,7 @@ LinkedList/LinkedList.s: LinkedList/LinkedList.cpp.s
 
 # target to generate assembly for a file
 LinkedList/LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/LinkedList.cpp.s
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/LinkedList/LinkedList.cpp.s
 .PHONY : LinkedList/LinkedList.cpp.s
 
 LinkedList/Node.o: LinkedList/Node.cpp.o
@@ -210,7 +291,7 @@ LinkedList/Node.o: LinkedList/Node.cpp.o
 
 # target to build an object file
 LinkedList/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/Node.cpp.o
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.o
 .PHONY : LinkedList/Node.cpp.o
 
 LinkedList/Node.i: LinkedList/Node.cpp.i
@@ -219,7 +300,7 @@ LinkedList/Node.i: LinkedList/Node.cpp.i
 
 # target to preprocess a source file
 LinkedList/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/Node.cpp.i
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.i
 .PHONY : LinkedList/Node.cpp.i
 
 LinkedList/Node.s: LinkedList/Node.cpp.s
@@ -228,8 +309,35 @@ LinkedList/Node.s: LinkedList/Node.cpp.s
 
 # target to generate assembly for a file
 LinkedList/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/LinkedList/Node.cpp.s
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.s
 .PHONY : LinkedList/Node.cpp.s
+
+Sockets/Server.o: Sockets/Server.cpp.o
+
+.PHONY : Sockets/Server.o
+
+# target to build an object file
+Sockets/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o
+.PHONY : Sockets/Server.cpp.o
+
+Sockets/Server.i: Sockets/Server.cpp.i
+
+.PHONY : Sockets/Server.i
+
+# target to preprocess a source file
+Sockets/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Server.cpp.i
+.PHONY : Sockets/Server.cpp.i
+
+Sockets/Server.s: Sockets/Server.cpp.s
+
+.PHONY : Sockets/Server.s
+
+# target to generate assembly for a file
+Sockets/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Server.cpp.s
+.PHONY : Sockets/Server.cpp.s
 
 main.o: main.cpp.o
 
@@ -237,7 +345,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -246,7 +354,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -255,7 +363,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -265,7 +373,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... DS"
+	@echo "... gtk_test"
 	@echo "... edit_cache"
 	@echo "... BinaryTree/BinaryTree.o"
 	@echo "... BinaryTree/BinaryTree.i"
@@ -273,12 +381,24 @@ help:
 	@echo "... BinaryTree/TreeNode.o"
 	@echo "... BinaryTree/TreeNode.i"
 	@echo "... BinaryTree/TreeNode.s"
+	@echo "... GUI/ClientGUI.o"
+	@echo "... GUI/ClientGUI.i"
+	@echo "... GUI/ClientGUI.s"
+	@echo "... GUI/arbolGUI.o"
+	@echo "... GUI/arbolGUI.i"
+	@echo "... GUI/arbolGUI.s"
+	@echo "... GUI/listaGUI.o"
+	@echo "... GUI/listaGUI.i"
+	@echo "... GUI/listaGUI.s"
 	@echo "... LinkedList/LinkedList.o"
 	@echo "... LinkedList/LinkedList.i"
 	@echo "... LinkedList/LinkedList.s"
 	@echo "... LinkedList/Node.o"
 	@echo "... LinkedList/Node.i"
 	@echo "... LinkedList/Node.s"
+	@echo "... Sockets/Server.o"
+	@echo "... Sockets/Server.i"
+	@echo "... Sockets/Server.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
