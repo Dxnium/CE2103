@@ -22,6 +22,26 @@ Node.h
 
 /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
 
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+json.hpp
+-
+Message.cpp
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
+
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
+json.hpp
+-
+
 /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
 stdlib.h
 -
@@ -30,6 +50,14 @@ stdio.h
 arpa/inet.h
 -
 sys/socket.h
+-
+json.hpp
+-
+../BinaryTree/BinaryTree.h
+/home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
+../LinkedList/LinkedList.h
+/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
+iostream
 -
 
 /home/danium/Documents/GitHub/CE2103/DS/main.cpp
@@ -43,6 +71,8 @@ Sockets/Server.h
 /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
 GUI/ClientGUI.hpp
 /home/danium/Documents/GitHub/CE2103/DS/GUI/ClientGUI.hpp
+Sockets/Client.h
+/home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h
 gtk/gtk.h
 -
 iostream

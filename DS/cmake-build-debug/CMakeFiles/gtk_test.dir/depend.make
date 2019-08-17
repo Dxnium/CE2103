@@ -8,10 +8,14 @@ CMakeFiles/gtk_test.dir/BinaryTree/BinaryTree.cpp.o: ../BinaryTree/TreeNode.h
 CMakeFiles/gtk_test.dir/BinaryTree/TreeNode.cpp.o: ../BinaryTree/TreeNode.cpp
 CMakeFiles/gtk_test.dir/BinaryTree/TreeNode.cpp.o: ../BinaryTree/TreeNode.h
 
+CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../BinaryTree/BinaryTree.h
+CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../BinaryTree/TreeNode.h
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../GUI/ClientGUI.cpp
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../GUI/ClientGUI.hpp
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../GUI/arbolGUI.h
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../GUI/listaGUI.h
+CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../Sockets/Client.h
+CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: ../Sockets/Message.cpp
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: /usr/include/atk-1.0/atk/atk.h
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: /usr/include/atk-1.0/atk/atkaction.h
@@ -626,6 +630,8 @@ CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: /usr/include/pango-1.0/pango/pango.
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: /usr/include/pango-1.0/pango/pangocairo.h
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o: /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h
 
+CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../BinaryTree/BinaryTree.h
+CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../BinaryTree/TreeNode.h
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../GUI/arbolGUI.cpp
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../GUI/arbolGUI.h
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h
@@ -1244,6 +1250,8 @@ CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: /usr/lib/x86_64-linux-gnu/glib-2.0/i
 
 CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o: ../GUI/listaGUI.cpp
 CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o: ../GUI/listaGUI.h
+CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o: ../Sockets/Client.h
+CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o: ../Sockets/Message.cpp
 CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h
 CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o: /usr/include/atk-1.0/atk/atk.h
 CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o: /usr/include/atk-1.0/atk/atkaction.h
@@ -1865,6 +1873,16 @@ CMakeFiles/gtk_test.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/Node.h
 CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.o: ../LinkedList/Node.cpp
 CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.o: ../LinkedList/Node.h
 
+CMakeFiles/gtk_test.dir/Sockets/Client.cpp.o: ../Sockets/Client.cpp
+CMakeFiles/gtk_test.dir/Sockets/Client.cpp.o: ../Sockets/Client.h
+CMakeFiles/gtk_test.dir/Sockets/Client.cpp.o: ../Sockets/Message.cpp
+
+CMakeFiles/gtk_test.dir/Sockets/Message.cpp.o: ../Sockets/Message.cpp
+
+CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o: ../BinaryTree/BinaryTree.h
+CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o: ../BinaryTree/TreeNode.h
+CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o: ../LinkedList/LinkedList.h
+CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o: ../LinkedList/Node.h
 CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o: ../Sockets/Server.cpp
 CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o: ../Sockets/Server.h
 
@@ -1873,6 +1891,8 @@ CMakeFiles/gtk_test.dir/main.cpp.o: ../BinaryTree/TreeNode.h
 CMakeFiles/gtk_test.dir/main.cpp.o: ../GUI/ClientGUI.hpp
 CMakeFiles/gtk_test.dir/main.cpp.o: ../LinkedList/LinkedList.h
 CMakeFiles/gtk_test.dir/main.cpp.o: ../LinkedList/Node.h
+CMakeFiles/gtk_test.dir/main.cpp.o: ../Sockets/Client.h
+CMakeFiles/gtk_test.dir/main.cpp.o: ../Sockets/Message.cpp
 CMakeFiles/gtk_test.dir/main.cpp.o: ../Sockets/Server.h
 CMakeFiles/gtk_test.dir/main.cpp.o: ../main.cpp
 CMakeFiles/gtk_test.dir/main.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h

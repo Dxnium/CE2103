@@ -2,6 +2,7 @@
 // Created by danium on 9/8/19.
 //
 
+#include <iostream>
 #include "Server.h"
 #include "Server.h"
 
@@ -37,6 +38,9 @@ Server::Server() {
             perror("Se desconecto.");
         }
 
+        to_do(buffer);
+        //to_do(s);
+//        json j = json::parse(reinterpret_cast<std::istream &>(*buffer));
         buffer[bytesRecibidos] = '\0';
         printf("Me llegaron %d bytes con %s\n", bytesRecibidos, buffer);
         free(buffer);
@@ -44,3 +48,4 @@ Server::Server() {
 
 
 }
+

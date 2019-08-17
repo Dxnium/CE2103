@@ -312,6 +312,60 @@ LinkedList/Node.cpp.s:
 	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.s
 .PHONY : LinkedList/Node.cpp.s
 
+Sockets/Client.o: Sockets/Client.cpp.o
+
+.PHONY : Sockets/Client.o
+
+# target to build an object file
+Sockets/Client.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Client.cpp.o
+.PHONY : Sockets/Client.cpp.o
+
+Sockets/Client.i: Sockets/Client.cpp.i
+
+.PHONY : Sockets/Client.i
+
+# target to preprocess a source file
+Sockets/Client.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Client.cpp.i
+.PHONY : Sockets/Client.cpp.i
+
+Sockets/Client.s: Sockets/Client.cpp.s
+
+.PHONY : Sockets/Client.s
+
+# target to generate assembly for a file
+Sockets/Client.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Client.cpp.s
+.PHONY : Sockets/Client.cpp.s
+
+Sockets/Message.o: Sockets/Message.cpp.o
+
+.PHONY : Sockets/Message.o
+
+# target to build an object file
+Sockets/Message.cpp.o:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Message.cpp.o
+.PHONY : Sockets/Message.cpp.o
+
+Sockets/Message.i: Sockets/Message.cpp.i
+
+.PHONY : Sockets/Message.i
+
+# target to preprocess a source file
+Sockets/Message.cpp.i:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Message.cpp.i
+.PHONY : Sockets/Message.cpp.i
+
+Sockets/Message.s: Sockets/Message.cpp.s
+
+.PHONY : Sockets/Message.s
+
+# target to generate assembly for a file
+Sockets/Message.cpp.s:
+	$(MAKE) -f CMakeFiles/gtk_test.dir/build.make CMakeFiles/gtk_test.dir/Sockets/Message.cpp.s
+.PHONY : Sockets/Message.cpp.s
+
 Sockets/Server.o: Sockets/Server.cpp.o
 
 .PHONY : Sockets/Server.o
@@ -396,6 +450,12 @@ help:
 	@echo "... LinkedList/Node.o"
 	@echo "... LinkedList/Node.i"
 	@echo "... LinkedList/Node.s"
+	@echo "... Sockets/Client.o"
+	@echo "... Sockets/Client.i"
+	@echo "... Sockets/Client.s"
+	@echo "... Sockets/Message.o"
+	@echo "... Sockets/Message.i"
+	@echo "... Sockets/Message.s"
 	@echo "... Sockets/Server.o"
 	@echo "... Sockets/Server.i"
 	@echo "... Sockets/Server.s"

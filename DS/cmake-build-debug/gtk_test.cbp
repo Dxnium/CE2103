@@ -158,6 +158,15 @@
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h">
 			<Option target="gtk_test"/>
 		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.cpp">
+			<Option target="gtk_test"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h">
+			<Option target="gtk_test"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp">
+			<Option target="gtk_test"/>
+		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp">
 			<Option target="gtk_test"/>
 		</Unit>

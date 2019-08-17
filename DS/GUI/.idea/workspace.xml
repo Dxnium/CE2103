@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="gtk_test" targetName="gtk_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2b2bda4-c81c-434e-9a58-7b3766848296" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BinaryTree/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTree/.idea/BinaryTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTree/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTree/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTree/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonParser/.idea/JsonParser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/.idea/Sockets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/Client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/Client.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sockets/Message.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientGUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ClientGUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arbolGUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/arbolGUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaGUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/listaGUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaGUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/listaGUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sockets/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Sockets/Server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sockets/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Sockets/Server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/gtk_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gtk_test" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/gtk_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gtk_test.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/gtk_test.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../main.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1PWirQsXQaMJRWZP2XkWkri0CCi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CMakeLists.txt" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="gtk_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gtk_test" TARGET_NAME="gtk_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gtk_test" RUN_TARGET_NAME="gtk_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2b2bda4-c81c-434e-9a58-7b3766848296" name="Default Changelist" comment="" />
+      <created>1565996451567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565996451567</updated>
+      <workItem from="1565996452715" duration="4610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

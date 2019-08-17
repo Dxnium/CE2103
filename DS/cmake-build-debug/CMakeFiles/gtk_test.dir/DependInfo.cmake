@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/danium/Documents/GitHub/CE2103/DS/GUI/listaGUI.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o"
   "/home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/gtk_test.dir/LinkedList/LinkedList.cpp.o"
   "/home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.o"
+  "/home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/gtk_test.dir/Sockets/Client.cpp.o"
+  "/home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/gtk_test.dir/Sockets/Message.cpp.o"
   "/home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o"
   "/home/danium/Documents/GitHub/CE2103/DS/main.cpp" "/home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug/CMakeFiles/gtk_test.dir/main.cpp.o"
   )

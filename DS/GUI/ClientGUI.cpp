@@ -5,6 +5,7 @@
 #include "ClientGUI.hpp"
 #include "arbolGUI.h"
 #include "listaGUI.h"
+#include "../Sockets/Client.h"
 #include <gtk/gtk.h>
 
 ClientGUI::ClientGUI(int argc, char **argv) {
@@ -48,6 +49,7 @@ ClientGUI::ClientGUI(int argc, char **argv) {
 
 void ClientGUI::button_arbol(GtkWidget *widget, gpointer data) {
     g_print("Arbol\n");
+    Client *c = new Client("2");
     arbolGUI *arbol = new arbolGUI();
    // gtk_window_close(reinterpret_cast<GtkWindow *>(widget));
 
@@ -55,6 +57,7 @@ void ClientGUI::button_arbol(GtkWidget *widget, gpointer data) {
 
 void ClientGUI::button_lista(GtkWidget *widget, gpointer data) {
     g_print("Lista\n");
+    Client *c = new Client("1");
     listaGUI *lisa = new listaGUI();
     //gtk_window_close(reinterpret_cast<GtkWindow *>(widget));
 

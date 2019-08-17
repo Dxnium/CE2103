@@ -3,6 +3,7 @@
 #include "BinaryTree/BinaryTree.h"
 #include "Sockets/Server.h"
 #include "GUI/ClientGUI.hpp"
+#include "Sockets/Client.h"
 #include <gtk/gtk.h>
 #include <iostream>
 
@@ -35,5 +36,11 @@
 
 int main(int argc, char *argv[]) {
     ClientGUI *g = new ClientGUI(argc,argv);
+//    Client *c = new Client("hola mundo");
+//    Server *s = new Server();
+//zz
+
+
+
     return 0;
 }

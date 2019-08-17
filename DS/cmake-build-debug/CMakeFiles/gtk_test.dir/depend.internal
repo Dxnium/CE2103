@@ -9,10 +9,14 @@ CMakeFiles/gtk_test.dir/BinaryTree/TreeNode.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.cpp
  /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
 CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
+ /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
  /home/danium/Documents/GitHub/CE2103/DS/GUI/ClientGUI.cpp
  /home/danium/Documents/GitHub/CE2103/DS/GUI/ClientGUI.hpp
  /home/danium/Documents/GitHub/CE2103/DS/GUI/arbolGUI.h
  /home/danium/Documents/GitHub/CE2103/DS/GUI/listaGUI.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
  /usr/include/atk-1.0/atk/atk-enum-types.h
  /usr/include/atk-1.0/atk/atk.h
  /usr/include/atk-1.0/atk/atkaction.h
@@ -627,6 +631,8 @@ CMakeFiles/gtk_test.dir/GUI/ClientGUI.cpp.o
  /usr/include/pango-1.0/pango/pangocairo.h
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
+ /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
  /home/danium/Documents/GitHub/CE2103/DS/GUI/arbolGUI.cpp
  /home/danium/Documents/GitHub/CE2103/DS/GUI/arbolGUI.h
  /usr/include/atk-1.0/atk/atk-enum-types.h
@@ -1245,6 +1251,8 @@ CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o
 CMakeFiles/gtk_test.dir/GUI/listaGUI.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/GUI/listaGUI.cpp
  /home/danium/Documents/GitHub/CE2103/DS/GUI/listaGUI.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
  /usr/include/atk-1.0/atk/atk-enum-types.h
  /usr/include/atk-1.0/atk/atk.h
  /usr/include/atk-1.0/atk/atkaction.h
@@ -1865,7 +1873,17 @@ CMakeFiles/gtk_test.dir/LinkedList/LinkedList.cpp.o
 CMakeFiles/gtk_test.dir/LinkedList/Node.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.cpp
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
+CMakeFiles/gtk_test.dir/Sockets/Client.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.cpp
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
+CMakeFiles/gtk_test.dir/Sockets/Message.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
 CMakeFiles/gtk_test.dir/Sockets/Server.cpp.o
+ /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/BinaryTree.h
+ /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
+ /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
+ /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
  /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.cpp
  /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
 CMakeFiles/gtk_test.dir/main.cpp.o
@@ -1874,6 +1892,8 @@ CMakeFiles/gtk_test.dir/main.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/GUI/ClientGUI.hpp
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/LinkedList.h
  /home/danium/Documents/GitHub/CE2103/DS/LinkedList/Node.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
  /home/danium/Documents/GitHub/CE2103/DS/Sockets/Server.h
  /home/danium/Documents/GitHub/CE2103/DS/main.cpp
  /usr/include/atk-1.0/atk/atk-enum-types.h
