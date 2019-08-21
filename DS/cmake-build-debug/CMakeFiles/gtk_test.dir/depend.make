@@ -634,6 +634,8 @@ CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../BinaryTree/BinaryTree.h
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../BinaryTree/TreeNode.h
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../GUI/arbolGUI.cpp
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../GUI/arbolGUI.h
+CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../Sockets/Client.h
+CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: ../Sockets/Message.cpp
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: /usr/include/atk-1.0/atk/atk.h
 CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o: /usr/include/atk-1.0/atk/atkaction.h

@@ -16,7 +16,9 @@ public:
     void del(int data);
 
     void print();
-    void print(TreeNode *r);
+    void printauxiz(TreeNode *r);
+    void printauxdr(TreeNode *r);
+
 
 
 

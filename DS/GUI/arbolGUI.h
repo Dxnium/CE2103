@@ -13,6 +13,8 @@ class arbolGUI {
 public:
     GtkWidget *window,*btn_insertar,*btn_delete,*vbox,*entry;
 
+    static void insertar(GtkWidget *widget, gpointer *data);
+
 
     arbolGUI();
 

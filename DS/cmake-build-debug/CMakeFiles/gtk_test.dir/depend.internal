@@ -635,6 +635,8 @@ CMakeFiles/gtk_test.dir/GUI/arbolGUI.cpp.o
  /home/danium/Documents/GitHub/CE2103/DS/BinaryTree/TreeNode.h
  /home/danium/Documents/GitHub/CE2103/DS/GUI/arbolGUI.cpp
  /home/danium/Documents/GitHub/CE2103/DS/GUI/arbolGUI.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Client.h
+ /home/danium/Documents/GitHub/CE2103/DS/Sockets/Message.cpp
  /usr/include/atk-1.0/atk/atk-enum-types.h
  /usr/include/atk-1.0/atk/atk.h
  /usr/include/atk-1.0/atk/atkaction.h

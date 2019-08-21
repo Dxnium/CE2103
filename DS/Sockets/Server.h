@@ -52,6 +52,7 @@ public:
            if(tree != nullptr){
                if(cmd == 3){
                     tree->insert(num);
+                    tree->print();
                }if(cmd == 4){
                    tree->del(num);
                }

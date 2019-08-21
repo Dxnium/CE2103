@@ -3,6 +3,7 @@
 //
 
 #include "arbolGUI.h"
+#include "../Sockets/Client.h"
 
 arbolGUI::arbolGUI() {
 
@@ -29,9 +30,18 @@ arbolGUI::arbolGUI() {
 
     g_signal_connect(G_OBJECT(window), "destroy",
                      G_CALLBACK(gtk_main_quit), NULL);
+    g_signal_connect(G_OBJECT(btn_insertar), "clicked",
+                     G_CALLBACK(insertar), entry);
 
     gtk_widget_show_all(window);
     gtk_main();
 
+
+}
+
+void arbolGUI::insertar(GtkWidget *widget, gpointer *data) {
+    std::string text = gtk_entry_get_text(GTK_ENTRY(data));
+    Client *c = new Client("3,"+text);
+    delete c;
 
 }
