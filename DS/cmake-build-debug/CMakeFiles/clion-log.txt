@@ -1,4 +1,4 @@
-/snap/clion/81/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/danium/Documents/GitHub/CE2103/DS
+/snap/clion/82/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/danium/Documents/GitHub/CE2103/DS
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/danium/Documents/GitHub/CE2103/DS/cmake-build-debug

@@ -26,9 +26,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU-C.cmake"
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU-CXX.cmake"
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU.cmake"
-  "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake"
-  "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageMessage.cmake"
-  "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/FindPkgConfig.cmake"
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux-GNU-C.cmake"
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -51,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/gtk_test.dir/DependInfo.cmake"
+  "CMakeFiles/Servers.dir/DependInfo.cmake"
   )
