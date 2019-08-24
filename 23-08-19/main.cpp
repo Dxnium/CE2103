@@ -7,7 +7,7 @@ using namespace std;
 using namespace std::chrono;
 
 void createArr(int max[]){
-    for(int i=0;i<10000;i++){
+    for(int i=0;i<100;i++){
         int v1 = rand() % INT_MAX;         // v1 in the range 0 to 99
         max[i]=v1;
     }
@@ -116,10 +116,10 @@ int main()
 //    cout << "Sorted array: \n";
 //    printArray(arr, 99);
 
-    int arr[10000];
+    int arr[100];
     createArr(arr);
     auto start = high_resolution_clock::now();
-    int result = binarySearch(arr, 0, 9999,0);
+    int result = binarySearch(arr, 0, 99,0);
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<nanoseconds>(stop - start);
     std::cout<<duration.count()<<" tiempo"<<endl;
