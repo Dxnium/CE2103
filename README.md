@@ -1,2 +1,2 @@
 # CE2103
-Algoritmos y estructuras de datos II
+Algoritmos y Estructuras de Datos II
