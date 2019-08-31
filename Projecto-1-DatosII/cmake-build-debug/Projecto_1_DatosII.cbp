@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/Pelicula.cpp">
+			<Option target="Projecto_1_DatosII"/>
+		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/main.cpp">
 			<Option target="Projecto_1_DatosII"/>
 		</Unit>

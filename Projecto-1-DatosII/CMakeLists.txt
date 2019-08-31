@@ -3,4 +3,4 @@ project(Projecto_1_DatosII)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Projecto_1_DatosII main.cpp)
+add_executable(Projecto_1_DatosII main.cpp Pelicula.cpp)

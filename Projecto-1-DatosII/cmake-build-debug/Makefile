@@ -123,6 +123,33 @@ Projecto_1_DatosII/fast:
 	$(MAKE) -f CMakeFiles/Projecto_1_DatosII.dir/build.make CMakeFiles/Projecto_1_DatosII.dir/build
 .PHONY : Projecto_1_DatosII/fast
 
+Pelicula.o: Pelicula.cpp.o
+
+.PHONY : Pelicula.o
+
+# target to build an object file
+Pelicula.cpp.o:
+	$(MAKE) -f CMakeFiles/Projecto_1_DatosII.dir/build.make CMakeFiles/Projecto_1_DatosII.dir/Pelicula.cpp.o
+.PHONY : Pelicula.cpp.o
+
+Pelicula.i: Pelicula.cpp.i
+
+.PHONY : Pelicula.i
+
+# target to preprocess a source file
+Pelicula.cpp.i:
+	$(MAKE) -f CMakeFiles/Projecto_1_DatosII.dir/build.make CMakeFiles/Projecto_1_DatosII.dir/Pelicula.cpp.i
+.PHONY : Pelicula.cpp.i
+
+Pelicula.s: Pelicula.cpp.s
+
+.PHONY : Pelicula.s
+
+# target to generate assembly for a file
+Pelicula.cpp.s:
+	$(MAKE) -f CMakeFiles/Projecto_1_DatosII.dir/build.make CMakeFiles/Projecto_1_DatosII.dir/Pelicula.cpp.s
+.PHONY : Pelicula.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Projecto_1_DatosII"
 	@echo "... edit_cache"
+	@echo "... Pelicula.o"
+	@echo "... Pelicula.i"
+	@echo "... Pelicula.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

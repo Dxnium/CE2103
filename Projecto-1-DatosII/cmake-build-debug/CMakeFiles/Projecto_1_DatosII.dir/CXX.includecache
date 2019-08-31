@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/Pelicula.cpp
+iostream
+-
+
 /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/main.cpp
 iostream
 -
 fstream
+-
+Pelicula.cpp
+/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/Pelicula.cpp
+sstream
+-
+algorithm
 -
 

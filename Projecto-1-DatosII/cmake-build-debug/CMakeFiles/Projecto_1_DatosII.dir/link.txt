@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o  -o Projecto_1_DatosII 
+/usr/bin/c++  -g   CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o CMakeFiles/Projecto_1_DatosII.dir/Pelicula.cpp.o  -o Projecto_1_DatosII 
