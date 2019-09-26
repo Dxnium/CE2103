@@ -4,5 +4,24 @@
 CMakeFiles/Projecto_1_DatosII.dir/Pelicula.cpp.o
  /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/Pelicula.cpp
 CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o
+ ../cpr-1.3.0/include/cpr/api.h
+ ../cpr-1.3.0/include/cpr/auth.h
+ ../cpr-1.3.0/include/cpr/body.h
+ ../cpr-1.3.0/include/cpr/cookies.h
+ ../cpr-1.3.0/include/cpr/cprtypes.h
+ ../cpr-1.3.0/include/cpr/defines.h
+ ../cpr-1.3.0/include/cpr/digest.h
+ ../cpr-1.3.0/include/cpr/error.h
+ ../cpr-1.3.0/include/cpr/low_speed.h
+ ../cpr-1.3.0/include/cpr/max_redirects.h
+ ../cpr-1.3.0/include/cpr/multipart.h
+ ../cpr-1.3.0/include/cpr/parameters.h
+ ../cpr-1.3.0/include/cpr/payload.h
+ ../cpr-1.3.0/include/cpr/proxies.h
+ ../cpr-1.3.0/include/cpr/response.h
+ ../cpr-1.3.0/include/cpr/session.h
+ ../cpr-1.3.0/include/cpr/ssl_options.h
+ ../cpr-1.3.0/include/cpr/timeout.h
  /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/Pelicula.cpp
+ /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/cpr.h
  /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/main.cpp

@@ -819,3 +819,33 @@ make[1]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Projecto-1-Dato
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf961/fast 
+/usr/bin/make -f CMakeFiles/cmTC_cf961.dir/build.make CMakeFiles/cmTC_cf961.dir/build
+make[1]: Entering directory '/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf961.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_cf961.dir/src.cxx.o -c /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cf961
+/snap/clion/82/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf961.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_cf961.dir/src.cxx.o  -o cmTC_cf961 
+make[1]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0223f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0223f.dir/build.make CMakeFiles/cmTC_0223f.dir/build
+make[1]: Entering directory '/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0223f.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_0223f.dir/src.cxx.o -c /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0223f
+/snap/clion/82/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0223f.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX0X    -rdynamic CMakeFiles/cmTC_0223f.dir/src.cxx.o  -o cmTC_0223f 
+make[1]: Leaving directory '/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

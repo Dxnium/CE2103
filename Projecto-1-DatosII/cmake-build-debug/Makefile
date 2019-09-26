@@ -123,6 +123,19 @@ Projecto_1_DatosII/fast:
 	$(MAKE) -f CMakeFiles/Projecto_1_DatosII.dir/build.make CMakeFiles/Projecto_1_DatosII.dir/build
 .PHONY : Projecto_1_DatosII/fast
 
+#=============================================================================
+# Target rules for targets named cpr
+
+# Build rule for target.
+cpr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cpr
+.PHONY : cpr
+
+# fast build rule for target.
+cpr/fast:
+	$(MAKE) -f cpr-1.3.0/cpr/CMakeFiles/cpr.dir/build.make cpr-1.3.0/cpr/CMakeFiles/cpr.dir/build
+.PHONY : cpr/fast
+
 Pelicula.o: Pelicula.cpp.o
 
 .PHONY : Pelicula.o
@@ -186,6 +199,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Projecto_1_DatosII"
 	@echo "... edit_cache"
+	@echo "... cpr"
 	@echo "... Pelicula.o"
 	@echo "... Pelicula.i"
 	@echo "... Pelicula.s"

@@ -5,7 +5,7 @@
 		<Option title="Projecto_1_DatosII"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cpr-1.3.0\;CMake Files\cpr-1.3.0\cpr\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug"/>
@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -57,6 +58,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -83,15 +85,169 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="cpr">
+				<Option output="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/libcpr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include"/>
+					<Add directory="/include"/>
+					<Add directory="/include/curl"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 cpr"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpr/fast">
+				<Option output="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/libcpr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include"/>
+					<Add directory="/include"/>
+					<Add directory="/include/curl"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 cpr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug/cpr-1.3.0/cpr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/Pelicula.cpp">
 			<Option target="Projecto_1_DatosII"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/auth.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/cookies.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/cprtypes.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/digest.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/error.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/multipart.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/parameters.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/payload.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/proxies.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/session.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/ssl_options.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/timeout.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/util.cpp">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/api.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/auth.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/body.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/cookies.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/cpr.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/cprtypes.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/curlholder.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/defines.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/digest.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/error.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/max_redirects.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/multipart.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/parameters.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/payload.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/proxies.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/response.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/session.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/ssl_options.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/timeout.h">
+			<Option target="cpr"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include/cpr/util.h">
+			<Option target="cpr"/>
 		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/main.cpp">
 			<Option target="Projecto_1_DatosII"/>
 		</Unit>
 		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/cpr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpr-1.3.0\cpr\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

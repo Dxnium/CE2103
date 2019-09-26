@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cpr-1.3.0/include 
 

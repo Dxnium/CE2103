@@ -3,6 +3,25 @@
 
 CMakeFiles/Projecto_1_DatosII.dir/Pelicula.cpp.o: ../Pelicula.cpp
 
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/api.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/auth.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/body.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/cookies.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/cprtypes.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/defines.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/digest.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/error.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/low_speed.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/max_redirects.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/multipart.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/parameters.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/payload.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/proxies.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/response.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/session.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/ssl_options.h
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/timeout.h
 CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../Pelicula.cpp
+CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../cpr-1.3.0/include/cpr/cpr.h
 CMakeFiles/Projecto_1_DatosII.dir/main.cpp.o: ../main.cpp
 

@@ -1,4 +1,6 @@
 /snap/clion/82/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII
+-- Using CURL_INCLUDE_DIRS: /include;/include/curl.
+-- Using CURL_LIBRARIES: libcurl.
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/danium/Documents/GitHub/CE2103/Projecto-1-DatosII/cmake-build-debug
